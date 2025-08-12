@@ -79,13 +79,13 @@ const LandingPage = () => {
               Simplifica tu agenda y deja que tus clientes reserven citas contigo en cualquier momento, desde cualquier lugar.
             </p>
             <div className="mt-8">
-              <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto md:mx-0">
+                <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto md:mx-0">
                 <input
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Ingresa tu correo electrónico"
-                  className="flex-grow px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                  className="flex-grow px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-gray-900"
                   required
                 />
                 <button
@@ -94,7 +94,7 @@ const LandingPage = () => {
                 >
                   Prueba Gratis
                 </button>
-              </form>
+                </form>
               <p className="mt-2 text-sm text-gray-500">
                 Prueba 14 días gratis. Sin tarjeta de crédito requerida.
               </p>
